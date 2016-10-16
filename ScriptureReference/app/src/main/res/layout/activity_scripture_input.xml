@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Instructions-->
+    <!--@+id adds id to R.id-->
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appInstructions" />
+
+    <!--Holds string for book of scripture-->
+    <!--textbox hint
+      strings should be stored in res->values->strings.xml-->
+    <EditText
+            android:id="@+id/edit_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_book" />
+
+    <!--Holds number for chapter of scripture-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edit_chapter"
+        android:hint="@string/edit_chapter" />
+
+    <!--Holds number for verse(s) of scripture-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edit_verse"
+        android:hint="@string/edit_verse" />
+
+    <!--Share button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage"/>
+
+</LinearLayout>

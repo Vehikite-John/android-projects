@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scripture Reference</string>
+    <string name="edit_book">Book (Ex: Moroni)</string>
+    <string name="edit_chapter">Chapter (Ex: 10)</string>
+    <string name="edit_verse">Verse(s) (Ex: 3-5)</string>
+    <string name="button_send">Share</string>
+</resources>
