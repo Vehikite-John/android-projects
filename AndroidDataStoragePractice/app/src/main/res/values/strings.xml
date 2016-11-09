@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android Data Storage Practice</string>
+    <string name="save_count">Save Count</string>
+    <string name="advance">Advance</string>
+    <string name="b_advance">Advance</string>
+</resources>
