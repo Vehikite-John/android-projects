@@ -16,24 +16,35 @@
         android:id="@+id/textView"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="31dp"
-        android:id="@+id/b_saveCount"
-        android:text="@string/save_count"
-        android:onClick="saveNumber"/>
-
-    <Button
         android:text="@string/b_advance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/b_advance"
+        android:onClick="advanceNumber"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/b_saveCount"
+        android:text="@string/save_count"
+        android:onClick="saveNumber"
+        android:layout_below="@+id/b_advance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/b_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_reset"
+        android:onClick="resetNumber"
         android:layout_below="@+id/b_saveCount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="16dp"
-        android:id="@+id/b_advance"
-        android:onClick="advanceNumber"/>
+        android:layout_marginTop="15dp" />
 </RelativeLayout>
